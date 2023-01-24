@@ -1,2 +1,1 @@
-
-# Typescript module
+# daily-quotes-cli
