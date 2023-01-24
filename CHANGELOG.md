@@ -1,5 +1,11 @@
 # daily-quotes-cli
 
+## 0.1.1
+
+### Patch Changes
+
+- 07e2c19: Update readme
+
 ## 0.1.0
 
 ### Minor Changes
