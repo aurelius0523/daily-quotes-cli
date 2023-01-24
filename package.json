@@ -36,7 +36,8 @@
   "scripts": {
     "build": "tsup src/cli.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "publish": "pnpm build && changeset publish"
   },
   "bin": {
     "get-quote": "dist/cli.js"
