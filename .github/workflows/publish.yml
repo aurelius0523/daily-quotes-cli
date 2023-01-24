@@ -18,8 +18,11 @@ jobs:
           node-version: 18
           cache: pnpm
       - run: pnpm i --frozen-lockfile
+      - run: pnpm lint && pnpm build
       - name: Create release and publish
         id: changesets
         uses: changesets/action@v1
         with:
           publish: pnpm build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
