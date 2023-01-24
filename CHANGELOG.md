@@ -1,5 +1,11 @@
 # daily-quotes-cli
 
+## 0.1.2
+
+### Patch Changes
+
+- 10ec34c: Fix missing deploy script
+
 ## 0.1.1
 
 ### Patch Changes
